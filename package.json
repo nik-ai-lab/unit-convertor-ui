@@ -1,0 +1,21 @@
+{
+  "name": "unit-converter-ui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test",
+    "lint": "find src -name \"*.js\" -exec node --check {} +",
+    "package": "vite build"
+  },
+  "dependencies": {
+    "svelte": "^5.56.9"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "vite": "^8.2.2"
+  }
+}
